@@ -50,15 +50,17 @@ const projects = [
   },
   {
     title: "Kitchen Genie",
-    imgSrc: "/project-imgs/kitchen.png",
-    code: "https://github.com/",
-    projectLink: "https://github.com/",
-    tech: ["Flutter", "Dart"],
+    imgSrc: "/project-imgs/Kitchen.png",
+    code: "#",
+    projectLink: "#",
+    tech: ["Flutter", "Dart", "Firebase"],
     description:
       "This Flutter and Firebase-backed app transforms meal planning and grocery shopping with AI recipe suggestions, shared schedules/lists, and automated management, promoting healthy habits and household coordination",
     modalContent: (
       <>
-     
+             <p>
+         Worked as a senior developer and created dynamic reusable components, integrated calendly, messaging and project management features.
+        </p>
       </>
     ),
   },
