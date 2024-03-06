@@ -17,22 +17,22 @@ export const Projects = () => {
 };
 
 const projects = [
-  {
-    title: "The Prophet's Path",
-    imgSrc: "/project-imgs/The_Prophet's_path.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://youtu.be/gWvvT17o35g",
-    tech: ["Flutter", "Node.js", "Sytled Components","Yolo","Tensor Flow"],
-    description:
-      "The Prophet’s Path” is a machine-learning hybrid mobile app that will detect your mood via camera categorize it and then show you the numbers of Sunna Dua’s which will help you in that mood with more features like Qibla Direction, Tasbeeh Counter, Search by topic and Kid's videos",
-    modalContent: (
-      <>
-        <p>
-         Worked as a senior developer and created dynamic reusable components, integrated calendly, messaging and project management features.
-        </p>
-      </>
-    ),
-  },
+  // {
+  //   title: "The Prophet's Path",
+  //   imgSrc: "/project-imgs/1.jpeg",
+  //   code: "https://www.github.com",
+  //   projectLink: "https://youtu.be/gWvvT17o35g",
+  //   tech: ["Flutter", "Node.js", "Sytled Components","Yolo","Tensor Flow"],
+  //   description:
+  //     "The Prophet’s Path” is a machine-learning hybrid mobile app that will detect your mood via camera categorize it and then show you the numbers of Sunna Dua’s which will help you in that mood with more features like Qibla Direction, Tasbeeh Counter, Search by topic and Kid's videos",
+  //   modalContent: (
+  //     <>
+  //       <p>
+  //        Worked as a senior developer and created dynamic reusable components, integrated calendly, messaging and project management features.
+  //       </p>
+  //     </>
+  //   ),
+  // },
   {
     title: "The SAFE-RH",
     imgSrc: "/project-imgs/SAFAE_RH.jpg",
@@ -49,16 +49,32 @@ const projects = [
     ),
   },
   {
-    title: "Meal App",
-    imgSrc: "/project-imgs/Meal_App.png",
-    code: "https://github.com/imtayyabzaman/Meal-App",
-    projectLink: "https://github.com/imtayyabzaman/Meal-App",
+    title: "Kitchen Genie",
+    imgSrc: "/project-imgs/kitchen.png",
+    code: "https://github.com/",
+    projectLink: "https://github.com/",
     tech: ["Flutter", "Dart"],
     description:
-      "A simple app where you can select your favorite meals and see their recipe and ingredients and also filter out meals according to their category.",
+      "This Flutter and Firebase-backed app transforms meal planning and grocery shopping with AI recipe suggestions, shared schedules/lists, and automated management, promoting healthy habits and household coordination",
     modalContent: (
       <>
      
+      </>
+    ),
+  },
+  {
+    title: "ClassRoom Monsters",
+    imgSrc: "/project-imgs/classroom_monsters.png",
+    code: "",
+    projectLink: "",
+    tech: ["Flutter", "Dart", "Firebase"],
+    description:
+      "ClassRoomMonsters is an interactive educational app gamifying classrooms with a user-friendly admin panel, evolving student avatars, dice-rolling games, and peer collaboration features",
+    modalContent: (
+      <>
+             <p>
+         Worked as a senior developer and created dynamic reusable components, integrated calendly, messaging and project management features.
+        </p>
       </>
     ),
   },
