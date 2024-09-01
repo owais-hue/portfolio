@@ -15,7 +15,7 @@ export const About = () => {
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
               Howdy! I&apos;m Awais Fazal, and I&apos;m a Bachelor of Software Engineering graduate.
               <br/><br/>
-              1 have experience working in the mobile applications development, with a focus on frontend development. I&apos;m passionate about creating beautiful, responsive applications that provide a great user experience.
+              1experience working in the mobile applications development, with a focus on frontend development. I&apos;m passionate about creating beautiful, responsive applications that provide a great user experience.
              </p>
           </Reveal>
          
